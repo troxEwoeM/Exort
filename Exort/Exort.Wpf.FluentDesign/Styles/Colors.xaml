@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:resources="clr-namespace:Exort.Wpf.FluentDesign.Resources">
+    <ResourceDictionary.MergedDictionaries>
+
+        <resources:ResourceDictionaryEx RequestedTheme="Default">
+            <resources:ResourceDictionaryEx.ThemeDictionaries>
+                <resources:ThemeDictionary ThemeName="Light">
+                    <resources:ThemeDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/Exort.Wpf.FluentDesign;component/Styles/Colors.Dark.xaml" />
+                        <ResourceDictionary Source="pack://application:,,,/Exort.Wpf.FluentDesign;component/Styles/Brushes.xaml" />
+                    </resources:ThemeDictionary.MergedDictionaries>
+                </resources:ThemeDictionary>
+                <resources:ThemeDictionary ThemeName="Dark">
+                    <resources:ThemeDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/Exort.Wpf.FluentDesign;component/Styles/Colors.Dark.xaml" />
+                        <ResourceDictionary Source="pack://application:,,,/Exort.Wpf.FluentDesign;component/Styles/Brushes.xaml" />
+                    </resources:ThemeDictionary.MergedDictionaries>
+                </resources:ThemeDictionary>
+            </resources:ResourceDictionaryEx.ThemeDictionaries>
+        </resources:ResourceDictionaryEx>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

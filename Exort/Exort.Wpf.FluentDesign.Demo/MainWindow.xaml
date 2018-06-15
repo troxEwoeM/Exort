@@ -1,0 +1,126 @@
+﻿<fluentDesign:AcrylicWindow x:Class="Exort.Wpf.FluentDesign.Demo.MainWindow"
+                                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fluentDesign="clr-namespace:Exort.Wpf.FluentDesign;assembly=Exort.Wpf.FluentDesign"
+        xmlns:resources="clr-namespace:Exort.Wpf.FluentDesign.Resources;assembly=Exort.Wpf.FluentDesign"
+        fluentDesign:AcrylicWindow.ExtendViewIntoTitleBar="True"
+        mc:Ignorable="d"
+        Title="Logo" Height="320" Width="480">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Background="#30000000">
+            <Image Source="logo.jpg" HorizontalAlignment="Center" Height="83" Width="83" VerticalAlignment="Center"></Image>
+
+        </Grid>
+
+        <fluentDesign:DropShadowPanel Grid.Column="1" ShadowMode="Outer" Background="#66FFFFFF">
+            <Grid fluentDesign:PointerTracker.Enabled="True" Background="#01FFFFFF">
+                <!--<Grid Grid.Column="1" >-->
+                <StackPanel VerticalAlignment="Center" Margin="24, 0">
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Right" >
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Right" >
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Right" >
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="100" Height="100" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Right" >
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Right" >
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                        <Button Content="1"  Width="35" Height="35" Margin="1.5" ClickMode="Release"
+                                Style="{StaticResource ButtonRevealStyle}" Background="Transparent"/>
+                    </StackPanel>
+                </StackPanel>
+
+
+            </Grid>
+        </fluentDesign:DropShadowPanel>
+    </Grid>
+    </fluentDesign:AcrylicWindow>
